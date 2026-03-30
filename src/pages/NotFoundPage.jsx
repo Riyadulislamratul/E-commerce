@@ -1,12 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router'
+import { Link, Links } from 'react-router'
 
 const NotFoundPage = () => {
   return (
     <section className='pt-20 pb-35 bg-white'>
       <div className="container">
         <div className='flex items-center gap-2 justify-start'>
-          <span className='text-slate-300'>Home</span>
+          <Link to="/" className='text-slate-300'>Home</Link>
           <span className='text-slate-300'>/</span>
           <span className='text-800'>404 Error</span>
         </div>

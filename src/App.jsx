@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage'
 import LoginPage from './pages/LoginPage'
 import SignupPage from './pages/SignupPage'
 import NotFoundPage from './pages/NotFoundPage'
+import AboutPage from './pages/AboutPage';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "*",
         element: <NotFoundPage />,
+      },
+      {
+        path: "/about",
+        element: <AboutPage />,
       },
     ]
   },
