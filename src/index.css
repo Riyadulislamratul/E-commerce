@@ -24,3 +24,10 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+/* Swiper pagination positioning */
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 40px !important;
+  bottom: auto !important;
+}
