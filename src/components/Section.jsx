@@ -2,7 +2,7 @@ import React from 'react'
 
 const Section = ({children, className}) => {
   return (
-    <div className={`pt-20 pb-35 bg-white ${className}`}>
+    <div className={`pt-20 bg-white ${className}`}>
         {children}
     </div>
   )
