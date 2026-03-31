@@ -18,12 +18,12 @@ const OurStory = () => {
             About
           </Link>
         </div>
-        <div className="pt-10.5 grid grid-cols-[525px_705px] gap-18.75">
-          <div>
-            <h1 className="text-[54px] font-semibold text-black pb-10">
+        <div className="pt-10.5 grid grid-cols-1 lg:grid-cols-[525px_705px] gap-8 lg:gap-18.75">
+          <div className="order-2 lg:order-1">
+            <h1 className="text-[36px] lg:text-[54px] font-semibold text-black pb-4 lg:pb-10">
               Our Story
             </h1>
-            <p className="text-base font-normal pb-6 text-black leading-6.5">
+            <p className="text-base font-normal pb-4 lg:pb-6 text-black leading-6.5">
               Launced in 2015, Exclusive is South Asia’s premier online shopping
               makterplace with an active presense in Bangladesh. Supported by
               wide range of tailored marketing, data and service solutions,
@@ -33,10 +33,11 @@ const OurStory = () => {
             <p className="text-base font-normal text-black leading-6.5">
                 Exclusive has more than 1 Million products to offer, growing at a very fast. Exclusive offers a diverse assotment in categories ranging  from consumer.
             </p>
-            <img src={ShoppingbagIcon} alt="" />
+            <div className="mt-4 lg:mt-0">
+            </div>
           </div>
-          <div>
-            <img src={OurStoryImg} alt="Our Story" className="w-full" />
+          <div className="order-1 lg:order-2">
+            <img src={OurStoryImg} alt="Our Story" className="w-full h-auto" />
           </div>
         </div>
        
