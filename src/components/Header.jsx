@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 import searchIcon from "../assets/icons/search.png";
 import cartIcon from "../assets/icons/cart.png";
-import wishListIcon from "../assets/icons/Wishlist.png";
+import wishListIcon from "../assets/icons/wishlist.png";
 
 const Header = () => {
 	return (

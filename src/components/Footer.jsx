@@ -1,5 +1,5 @@
 import { useState } from "react";
-import QRCodeImage from "../assets/QrCode.png";
+import QRCodeImage from "../assets/qrcode.png";
 import appleImage from "../assets/appstore.png";
 import googlePlayStoreImage from "../assets/google-play-store.png";
 
