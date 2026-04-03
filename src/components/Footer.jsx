@@ -148,7 +148,7 @@ const Footer = () => {
 								<li key={item}>
 									<a
 										href="#"
-										className="hover:text-[#DB4444] transition-colors duration-200 hover:translate-x-1 inline-block"
+										className="hover:text-[#DB4444] duration-200"
 									>
 										{item}
 									</a>
@@ -168,7 +168,7 @@ const Footer = () => {
 									<li key={item}>
 										<a
 											href="#"
-											className="hover:text-[#DB4444] transition-colors duration-200 hover:translate-x-1 inline-block"
+											className="hover:text-[#DB4444] duration-200"
 										>
 											{item}
 										</a>
