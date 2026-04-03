@@ -8,6 +8,7 @@ import SignupPage from './pages/SignupPage'
 import NotFoundPage from './pages/NotFoundPage'
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import CartPage from './pages/CartPage';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,9 @@ const router = createBrowserRouter([
       {path: "/contact",
       element: <ContactPage />
       },
+      {path: "/cart",
+      element: <CartPage />
+      }
     ]
   },
 ]);

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, Links } from 'react-router'
+import RedButton from '../components/RedButton'
 
 const NotFoundPage = () => {
   return (
@@ -17,10 +18,7 @@ const NotFoundPage = () => {
           <p className='text-base font-normal pb-24 text-black'>
             Your visited page not found. You may go home page.
           </p>
-          <Link to="/"
-            className="inline-block py-4 px-12 bg-secondary text-white rounded-sm">
-          Back to Home Page
-          </Link>
+          <RedButton title="Go To Home" link="/" />
         </div>
       </div>
     </section>
