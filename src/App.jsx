@@ -35,11 +35,13 @@ const router = createBrowserRouter([
         path: "/about",
         element: <AboutPage />,
       },
-      {path: "/contact",
-      element: <ContactPage />
+      {
+        path: "/contact",
+        element: <ContactPage />
       },
-      {path: "/cart",
-      element: <CartPage />
+      {
+        path: "/cart",
+        element: <CartPage />
       }
     ]
   },

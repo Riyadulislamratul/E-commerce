@@ -5,5 +5,11 @@ import { ShoppingbagIcon } from "./ShoppingbagIcon";
 import { SecureIcon } from "./secure";
 import { DeliveryIcon } from "./delivery";
 import { CustomerserviceIcon } from "./CustomerserviceIcon";
+import { ArrowLeft, ArrowRight, Smartphone, Monitor, Star, Eye, Heart } from "lucide-react";
 
-export { ShopIcon, SaleIcon, MoneybagIcon, ShoppingbagIcon, SecureIcon, DeliveryIcon, CustomerserviceIcon };
+const StarIcon = Star;
+const EyeIcon = Eye;
+const HeartIcon = Heart;
+const Mobile = Smartphone;
+
+export { ShopIcon, SaleIcon, MoneybagIcon, ShoppingbagIcon, SecureIcon, DeliveryIcon, CustomerserviceIcon, ArrowLeft, ArrowRight, Mobile, Monitor, Star, Eye, Heart, StarIcon, EyeIcon, HeartIcon };
